@@ -1,0 +1,47 @@
+"Hello"[0] //This is a string - the square brackets give the first character in the string
+123.123 //This is a float
+123_123_123 //This is a integer or int - the underscores are just for humans
+True and False //These are Boolean
+
+type() //this function checks the type of the data
+
+int("123") + int("123") //this converts the string into an integer, and makes it so that the + sign that used to concatenate, now adds as a mathematical operator
+
+int() //converts to integer
+float() //converts to float
+str() //converts to string
+bool() //converts to a boolean
+
+//The below code takes spits out the number of characters in your name'
+
+number_of_letters_in_name = len(input("What is your name\n"))
+print ("The number of letters in your name is: " + str(number_of_letters_in_name))
+
++ - / * //those are the mathematical operators in python
+/ //This Divides and output is a float
+"//" //This divides and output is an int it gives the amount of whole numbers into a number
+** //This is an exponent
+
+//Below code is a BMI Calculator that rounds your bmi to 2 decimal places
+height = float(input("What is your height in m?"))
+weight = float(input("What is your weight in kg?"))
+
+bmi = weight/(height ** 2)
+bmi_rounded = round(bmi, 2)
+print("Your BMI is " + str(bmi_rounded))
+
++= 1 //takes previous value of variable and adds 1, can be done with - * /
+  
+score = 0
+print(f"Your score is {score}" //This removes the requirement for converting the variable type and just outputs the value of the variable
+
+//Below is a tip calculator
+bill = float(input ("What was the total bill?\n"))
+tip  = float(input ("What percentage tip would you like to leave?\n"))
+no_of_people = int(input("how many people are splitting the bill?\n"))
+
+tip_multiplier = (tip)/100 + 1
+
+amount_each_to_pay = (bill*tip_multiplier)/no_of_people
+
+print (f"Each person should pay ${round(amount_each_to_pay, 2)}")
