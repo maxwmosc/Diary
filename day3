@@ -1,1 +1,25 @@
+if condition: //if the condition is met
+  do this
+elif condition: //if the prior condition is not met but this one is
+  do this
+else: //if neither condition is met
+  do this
+
+% //This represents 'Modulo' which finds the remainder of the first number divided by the second
+
+//Below is an even number checker
+
+number = int(input ("Pick a whole number:")) //asks for input of a whole number and converts the output to an int
+if number % 2 == 0: // if the remainder after dividing by 2 = 0 number is even
+    print ("Your number is even!")
+else: // if it isn't number is odd
+    print("Your number is odd!")
+
+if condition:
+  if another condition:
+    do this //do this if both are true do this 
+  else:
+    do this //if first is true and second isn't
+else:
+  do this //if first isn't true
 
