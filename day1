@@ -1,6 +1,7 @@
 print("Hello World") //this is and example of a print function, which is designed to read out whatever is between the parentheses.
 \n //if this is between the parentheses, the what comes after it is put onto a new line - can go between the quotations and performs the same action
 fav_colour = input("What is your favourite colour?") //this will ask the user what their favourite colour is and store what was answered as a variable.
+len() //gives the number of characters in a string
 
 //day 1 final task is band name generator below
 print("Hello and welcome to the Band Name Generator")
